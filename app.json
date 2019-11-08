@@ -1,0 +1,13 @@
+{
+  "name": "CreamApp",
+  "description": "Creamapp Application",
+  "keywords": [
+    "crm",
+    "django"
+  ],
+  "scripts": {
+    "dokku": {
+      "postdeploy": "python manage.py migrate"
+    }
+  }
+}

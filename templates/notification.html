@@ -1,0 +1,12 @@
+<div style="text-align: center">
+    <img src="https://www.d-h.gr/img/digital-horizon-logo-1472717333.jpg"
+         alt="DH Logo">
+    <h4>Subscription Status Expiring in {{ days }} days</h4>
+</div>
+<div style="padding: 20px;">
+    <p><strong style="color: #0088cc">Client:</strong> {{ client.full_name }}</p>
+    <p><strong style="color: #0088cc">Subscription: </strong> {{ subscription }}</p>
+    <p><strong style="color: #0088cc">Expiration date: </strong> {{ expiration_date }}</p>
+    <p><strong style="color: #0088cc">Subscription price: </strong> {{ price }}</p>
+    <p><strong style="color: #0088cc">Contact: </strong> {{ client.phone_number }}</p>
+</div>
